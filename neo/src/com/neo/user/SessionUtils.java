@@ -19,8 +19,7 @@ public class SessionUtils {
 		
 		if(isEmpty(session, key)){
 			return null;
-		}
-		
+		}		
 		
 		return (String)session.getAttribute(key);
 	}
